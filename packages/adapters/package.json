@@ -1,0 +1,25 @@
+{
+  "name": "@clean/adapters",
+  "version": "1.0.0",
+  "author": "Tojo <tjnyaina@gmail.com>",
+  "main": "dist/adapters/src/index.js",
+  "types": "dist/adapters/src/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@clean/domain": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.2",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.4.0"
+  }
+}

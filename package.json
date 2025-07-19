@@ -1,0 +1,16 @@
+{
+  "name": "clean-hexa-front-template",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Tojo RAMAROSON <tjnyaina@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lerna": "^8.2.3",
+    "typescript": "^5.8.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}

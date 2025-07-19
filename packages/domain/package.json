@@ -1,0 +1,22 @@
+{
+  "name": "@clean/domain",
+  "version": "1.0.0",
+  "author": "Tojo <tjnyaina@gmail.com>",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.2",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.4.0"
+  }
+}
