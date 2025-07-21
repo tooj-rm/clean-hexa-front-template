@@ -6,11 +6,14 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "husky": "^9.1.7",
     "lerna": "^8.2.3",
     "typescript": "^5.8.3"
   },
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {}
+  "scripts": {
+    "prepare": "husky"
+  }
 }
