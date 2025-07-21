@@ -5,12 +5,8 @@
     "moduleResolution": "node",
     "baseUrl": "./packages",
     "paths": {
-      "@clean/domain": [
-        "domain/src"
-      ],
-      "@clean/adapters": [
-        "adapters/src"
-      ]
+      "@clean/domain": ["domain/src"],
+      "@clean/adapters": ["adapters/src"]
     },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

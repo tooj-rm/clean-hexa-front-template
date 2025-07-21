@@ -1,10 +1,9 @@
-export type Subscriber<T> = (vm: T) => void
+export type Subscriber<T> = (vm: T) => void;
 
 export abstract class Presenter<VM> {
   protected subscriber?: Subscriber<VM>;
 
-  protected constructor(public vm: VM) {
-  }
+  protected constructor(public vm: VM) {}
 
   protected notifyVM(): void {
     this.subscriber?.call(this.subscriber, this.vm);
